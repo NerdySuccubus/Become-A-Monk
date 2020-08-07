@@ -57,3 +57,95 @@ body {
 .imgText .text {
     margin-top: 20%;
 }
+
+#background {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    -webkit-transition: all 0.5s ease-in-out;
+    z-index: -1;
+    left: 0%;
+}
+
+#background img {
+    height: 100%;
+    width: initial;
+}
+
+.info {
+    height: 85vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+}
+
+.home #homeInfo {
+    display: block;
+}
+
+.home #phraseContainer {
+    display: none;
+}
+
+#homeInfo {
+    display: none;
+    height: 85vh;
+    width: 100vw;
+}
+
+.title {
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.titleInnerText {
+    padding: 2% 2% 0 2%;
+}
+
+.footInnerText {
+    padding: 2% 2% 0 2%;
+    font-size: 18px;
+}
+
+.footNote {
+    height: 55%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 18px;
+}
+
+.phraseStyle {
+    height: 85vh;
+    margin: 0;
+    font-family: "klavikaLight";
+    letter-spacing: 2px;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+#phraseContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 6% 0 6%;
+    height: 85vh;
+}
+
+#phraseContainer #phrase {
+    margin-top: 11%;
+}
+
+.in {
+    -webkit-transition: all 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.out {
+    opacity: 0;
+}
