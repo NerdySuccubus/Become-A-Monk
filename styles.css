@@ -25,3 +25,35 @@ body {
     overflow: hidden;
     background-color: black;
 }
+
+#loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#loading div {
+    width: auto;
+    height: auto;
+}
+
+#loading .imgBoxOut {
+    width: 80%;
+    height: auto;
+    position: relative;
+}
+
+#loading .imgBoxOut img {
+    width: 100%;
+}
+
+.imgText {
+    display: flex;
+    justify-content: center;
+}
+
+.imgText .text {
+    margin-top: 20%;
+}
