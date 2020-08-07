@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "klavikaLight";
+    src: url("../font/klavika-light-webfont.woff");
+}
+
+@font-face {
+    font-family: "klavikaRegular";
+    src: url("../font/klavika-regular-webfont.woff");
+}
+
+@font-face {
+    font-family: "klavikaMedium";
+    src: url("../font/klavika-medium-webfont.woff");
+}
+
+@font-face {
+    font-family: "klavikaBold";
+    src: url("../font/klavika-bold-webfont.woff");
+}
+
+body {
+    margin: 0px;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
