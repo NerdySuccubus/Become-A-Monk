@@ -4,14 +4,16 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" crossorigin="anonymous">
     <link rel="icon" type="image/ico" href="images/favicon.ico">
 
     <title>How to become a Monk</title>
 </head>
 
+
 <body>
+
     <!-- Pre-loader Start-->
     <div id="loading">
         <div class="imgText">
@@ -21,8 +23,8 @@
                         <img src="images/monk.png" alt="Monk levitating">
                     </div>
                 </div>
-    
-    
+
+
                 <div class="text footnote">
                     <p>Patience! Young padawan...</p>
                 </div>
@@ -53,80 +55,80 @@
                         <h1 class="phraseStyle center">WE ARE BREAKING<br />OUR VOW<br />OF SILENCE</h1>
                     </div>
                 </div>
-    
+
                 <!--First Slide Footer-->
                 <div class="footNote">
                     <div class="footInnerText">
                         <p>In january 2011, after a decade of digital, we opened
-                            the doors to our temple.<br />Follow our noble eightfold path to digital enlightenment here.</p>
+                            the doors to our temple.<br />Follow our noble eightfold path to digital enlightenment here.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
 
-<!--CONTACT/BECOME A MONK Text-->
-<div id="contact">
-    <div class="contactBox">
-        <div Class="phraseStyle cont">
-            BECOME A MONK
-        </div>
-        <div>
-            <div class="footNote cont innerText">
-                <p>Interested in joining our monastery?<br />Check out
-                    our current openings on <a href="https://www.mediamonks.com/careers"
-                        alt="Media Monk careers">mediamonks.com/careers</a>.</p>
+        <!--CONTACT/BECOME A MONK Text-->
+        <div id="contact">
+            <div class="contactBox">
+                <div Class="phraseStyle cont">
+                    BECOME A MONK
+                </div>
+                <div>
+                    <div class="footNote cont innerText">
+                        <p>Interested in joining our monastery?<br />Check out
+                            our current openings on <a href="https://www.mediamonks.com/careers"
+                                alt="Media Monk careers">mediamonks.com/careers</a>.</p>
+                    </div>
+                    <div class="social">
+                        <div class="socialBox">
+                            <div><i class="fas fa-envelope"></i></div><a href="https://www.mediamonks.com/contact"
+                                alt="Contact us by e-mail">
+                                <p>Mails on</p>
+                            </a>
+                        </div>
+                        <div class="socialBox">
+                            <div><i class="fab fa-facebook-f"></i></div><a href="https://www.facebook.com/mediamonks/"
+                                alt="media monks facebook page">
+                                <p>Facebook</p>
+                            </a>
+                        </div>
+                        <div class="socialBox">
+                            <div> <i class="fab fa-twitter"></i></div><a href="https://twitter.com/mediamonks"
+                                alt="media monks twitter page">
+                                <p>Twitter</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="social">
-                <div class="socialBox">
-                    <div><i class="fas fa-envelope"></i></div><a href="https://www.mediamonks.com/contact"
-                        alt="Contact us by e-mail">
-                        <p>Mails on</p>
-                    </a>
+        </div>
+
+        <!--Phrase cointainer-->
+
+        <div Class="phraseStyle" id="phraseContainer">
+            <h3 id="phrase" Class="phraseSize in"></h3>
+        </div>
+
+
+        <!--Footer with slider -->
+
+        <footer>
+            <div class="screenNumber">
+                <div id="first" id="box" onclick="resetSlide()">
+                    <div class="innerBox"></div>
                 </div>
-                <div class="socialBox">
-                    <div><i class="fab fa-facebook-f"></i></div><a href="https://www.facebook.com/mediamonks/"
-                        alt="media monks facebook page">
-                        <p>Facebook</p>
-                    </a>
-                </div>
-                <div class="socialBox">
-                    <div> <i class="fab fa-twitter"></i></div><a href="https://twitter.com/mediamonks"
-                        alt="media monks twitter page">
-                        <p>Twitter</p>
-                    </a>
+                <div id="slider"></div>
+                <div id="last" class="last" onclick="lastScreen()">
+                    <div class="innerBox"></div>
                 </div>
             </div>
-        </div>
+            <div class="logo-mm">
+                <img src="images/logo.svg" alt="Media Monks Logo">
+            </div>
+        </footer>
     </div>
-</div>
-
-<!--Phrase cointainer-->
-
-<div Class="phraseStyle" id="phraseContainer">
-    <h3 id="phrase" Class="phraseSize in"></h3>
-</div>
-
-
-<!--Footer with slider -->
-
-<footer>
-    <div class="screenNumber">
-        <div id="first" id="box" onclick="resetSlide()">
-            <div class="innerBox"></div>
-        </div>
-        <div id="slider"></div>
-        <div id="last" class="last" onclick="lastScreen()">
-            <div class="innerBox"></div>
-        </div>
     </div>
-    <div class="logo-mm">
-        <img src="images/logo.svg" alt="Media Monks Logo">
-    </div>
-</footer>
-</div>
-</div>
-
-
-<script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>

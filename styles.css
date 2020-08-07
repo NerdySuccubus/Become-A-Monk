@@ -1,21 +1,21 @@
 @font-face {
     font-family: "klavikaLight";
-    src: url("../font/klavika-light-webfont.woff");
+    src: url("font/klavika-light-webfont.woff");
 }
 
 @font-face {
     font-family: "klavikaRegular";
-    src: url("../font/klavika-regular-webfont.woff");
+    src: url("font/klavika-regular-webfont.woff");
 }
 
 @font-face {
     font-family: "klavikaMedium";
-    src: url("../font/klavika-medium-webfont.woff");
+    src: url("font/klavika-medium-webfont.woff");
 }
 
 @font-face {
     font-family: "klavikaBold";
-    src: url("../font/klavika-bold-webfont.woff");
+    src: url("font/klavika-bold-webfont.woff");
 }
 
 body {
@@ -25,6 +25,8 @@ body {
     overflow: hidden;
     background-color: black;
 }
+
+/*PRE LOADER */
 
 #loading {
     display: flex;
@@ -58,6 +60,7 @@ body {
     margin-top: 20%;
 }
 
+/*BRACKGROUND */ 
 #background {
     height: 100%;
     width: auto;
@@ -83,6 +86,8 @@ body {
 .home #homeInfo {
     display: block;
 }
+
+/*PHRASE CONTAINER*/
 
 .home #phraseContainer {
     display: none;
@@ -141,6 +146,7 @@ body {
     margin-top: 11%;
 }
 
+/*FADE TRANSITION*/
 .in {
     -webkit-transition: all 0.5s ease-in-out;
     opacity: 1;
@@ -175,6 +181,7 @@ button .fa-chevron-right {
     color: white;
 }
 
+/*ARROW CONTAINER*/
 .arrows {
     height: 85vh;
     width: 100vw;
@@ -199,6 +206,7 @@ button .fa-chevron-right {
     display: block;
 }
 
+/*FOOTER FRONT*/
 footer {
     height: 15vh;
     width: 100%;
@@ -261,6 +269,7 @@ footer .logo-mm img {
     cursor: pointer;
 }
 
+/*DOTTED SLIDER*/
 #first {
     height: 100%;
     width: 16px;
@@ -307,6 +316,7 @@ footer .logo-mm img {
     color: white;
 }
 
+/*BECOME A MONK - SOCIAL LINKS*/
 .social {
     display: flex;
     justify-content: flex-end;
@@ -332,6 +342,7 @@ footer .logo-mm img {
     align-items: center;
 }
 
+/*FONTAWESOME ICONS*/
 .fa-facebook-f {
     color: white;
     font-size: 12px;
@@ -365,7 +376,7 @@ footer .logo-mm img {
     }
 }
 
-/* The typewriter cursor effect */
+/* TYPEWRITTER EFFECT */
 @keyframes blink-caret {
 
     from,
@@ -378,6 +389,8 @@ footer .logo-mm img {
     }
 }
 
+/*MONK MOVING UP & DOWN*/
+
 .imgBox {
     animation: MoveUpDown 1s linear infinite;
     position: absolute;
@@ -385,7 +398,7 @@ footer .logo-mm img {
     bottom: 0;
 }
 
-/*MONK MOVING UP & DOWN*/
+/*MONK KEYFRAMES*/
 
 @keyframes MoveUpDown {
 
@@ -403,6 +416,7 @@ footer .logo-mm img {
     }
 }
 
+/*ACTUAL BG IMG WITH MONKS*/
 #hidden {
     display: none;
 }
