@@ -149,3 +149,260 @@ body {
 .out {
     opacity: 0;
 }
+
+
+p {
+    font-family: "klavikaLight";
+    color: white;
+    font-size: 18px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+button .fa-chevron-left {
+    font-size: 35px;
+    color: white;
+}
+
+button .fa-chevron-right {
+    font-size: 35px;
+    color: white;
+}
+
+.arrows {
+    height: 85vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 2%;
+}
+
+#buttonLeft {
+    display: none;
+}
+
+#buttonRight {
+    display: block;
+}
+
+footer {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+footer .logo-mm {
+    width: 5%;
+    height: auto;
+    margin: 0 1.5%;
+}
+
+footer .logo-mm img {
+    width: 100%;
+    filter: invert(100%);
+}
+
+.screenNumber {
+    width: auto;
+    height: 15%;
+    margin: 0 2% 0 2%;
+    border: 2px white dotted;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.screenNumber #box {
+    height: 100%;
+    width: 20px;
+    border-right: 2px white dotted;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last {
+    height: 100%;
+    width: 16px;
+}
+
+.innerBox {
+    height: 95%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.innerBox:hover {
+    background-color: white;
+}
+
+#slideID {
+    margin: 0;
+    cursor: pointer;
+}
+
+#first {
+    height: 100%;
+    width: 16px;
+    border-right: 2px white dotted;
+}
+
+#slider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+#contact {
+    display: none;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 85vh;
+    width: 100%;
+    position: absolute;
+}
+
+#contact .contactBox {
+    margin: 2% 2% 0 0;
+    height: 50%;
+    z-index: 250;
+}
+
+.cont {
+    display: flex;
+    justify-content: flex-end;
+    height: 50%;
+}
+
+.cont p {
+    text-align: right;
+}
+
+.innerText {
+    margin-top: 20%;
+}
+
+.innerText a {
+    color: white;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+}
+
+.social .socialBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    margin: 0 2% 0 2%;
+}
+
+.social .socialBox a {
+    text-decoration: none;
+}
+
+.social .socialBox div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.fa-facebook-f {
+    color: white;
+    font-size: 12px;
+}
+
+.fa-twitter {
+    color: white;
+    font-size: 12px;
+}
+
+.fa-envelope {
+    color: white;
+    font-size: 12px;
+}
+
+.text p {
+    overflow: hidden;
+    border-right: 0.15em solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: white;
+    }
+}
+
+.imgBox {
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/*MONK MOVING UP & DOWN*/
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    25% {
+        bottom: 15px;
+    }
+
+    50% {
+        bottom: 20px;
+    }
+}
+
+#hidden {
+    display: none;
+}
